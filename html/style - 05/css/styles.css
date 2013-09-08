@@ -1,0 +1,235 @@
+* {
+	margin:0;
+	padding:0;
+}
+body#error404 {
+	font-size:12px;
+	color:#3e3e3e;
+	background: url(../images/page-back.jpg) repeat;
+}
+a {
+	outline:none;
+	text-decoration:none;
+	color:#1d8ac2;
+}
+a img {
+	border:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:active {
+	text-decoration:underline
+}
+p {
+	line-height:1.6667em;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:20px;
+}
+/*-- Float --*/
+
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+/*--Layout--*/
+#error404 .wrapper {
+	width:100%;
+	margin:auto;
+	background:url(../images/main-back.jpg) repeat-x;
+}
+#error404 .container {
+	width:960px;
+	overflow:hidden;
+	margin:auto;
+}
+#error404 .branding {
+	height:50px;
+	margin:10px auto 0 auto;
+	width:920px;
+	overflow:hidden;
+}
+#error404 .logo {
+	height:50px;
+}
+#error404 .logo {
+	height:50px;
+	width:300px;
+	display:block;
+	background:url(../images/home.png) no-repeat;
+	background-position:0px center;
+	padding-left:36px;
+	font-size:18px;
+	text-transform:uppercase;
+	line-height:50px;
+	font-family: 'Oswald', sans-serif;
+}
+#error404 .logo a {
+	color:#444;
+}
+/*--Left Side--*/
+#error404 .leftSide {
+	width:600px;
+	margin-left:20px;
+	float:left;
+	position:relative;
+}
+#error404 .leftSide h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	margin-bottom:10px;
+}
+#error404 .leftSide h3 span {
+	display:block;
+	font-size:180%;
+	color:#da6233;
+}
+#error404 .leftSide h4 {
+	color:#3d6d23;
+	font-family: 'Oswald', sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin:5px 0;
+}
+#error404 .leftSide .bubble {
+	width:200px;
+	height:250px;
+	background:url(../images/bubble.png) no-repeat left;
+	position:absolute;
+	right:40px;
+	top:0px;
+	padding-left:80px;
+	padding-top:50px;
+}
+#error404 .leftSide .bubble p {
+	padding-right:40px;
+}
+.errorCode {
+	height:180px;
+	font-size:206px;
+	padding-top:250px;
+	line-height:180px;
+	font-family: 'Oswald', sans-serif;
+	position:relative;
+	left:-10px;
+	color:#415c67;
+}
+/*--Right Side--*/
+#error404 .rightSide h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin-bottom:20px;
+}
+#error404 .rightSide h3 span {
+	color:#da6233;
+}
+#error404 .rightSide {
+	width:290px;
+	padding-top:100px;
+	float:right;
+	margin-right:20px;
+	position: relative;
+}
+.rightSide ol {
+	margin-bottom:20px;
+}
+.rightSide ol li {
+	line-height:1.6667em;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:20px;
+}
+.rightSide ol li a {
+	color:#1d8ac2;
+	text-decoration:underline;
+}
+/*--Search Box--*/
+.rightSide .search-box {
+	height:55px;
+	margin-bottom:15px;
+}
+.rightSide .search-box ul {
+	width:auto;
+	overflow:hidden;
+}
+.rightSide .search-box ul li {
+	float:left;
+	display:inline-block;
+	list-style:none;
+	margin-right:10px;
+}
+.search-box ul li.search-text-box {
+	width:220px;
+	height:60px;
+	background:url(../images/search-box.png) no-repeat;
+}
+.input-text {
+	width:172px;
+	background:url(../images/search-text-box.png) no-repeat;
+	border:0px;
+	margin:10px;
+	padding:7px 5px 8px 24px;
+}
+.search-box ul li.search-button {
+	width:50px;
+	height:55px;
+}
+.input-button {
+	width:50px;
+	height:55px;
+	background:url(../images/go.png) no-repeat;
+	cursor:pointer;
+	border:0px;
+	color:transparent;
+	text-indent:-999999px;
+	display:block;
+	line-height:0;
+	font-size:0;
+
+}
+/*--Footer--*/
+#error404 .footer {
+	height:50px;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	background:url(../images/footer-back.jpg) repeat-x;
+}
+.footer-wrap {
+	width:920px;
+	margin:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:50px;
+}
+.footer-left {
+	width:530px;
+	float:left;
+	text-align:left;
+	color:#a8c3cc;
+}
+.footer-left a {
+	color:#a8c3cc;
+	padding:0 5px;
+}
+.footer-right {
+	width:390px;
+	float:right;
+	text-align:right;
+	color:#a8c3cc;
+}
+.footer-right a {
+	color:#ec8056;
+}
+.error-report a {
+	color:#ec8056;
+}
+
+::-moz-selection {
+ background-color: #de764d;
+ color: #fff;
+}
