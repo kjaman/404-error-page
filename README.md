@@ -5,4 +5,4 @@
 Here have 5 different templates. All templates are fixed 2 columns layout. All pages html structure are same unless few small changes
 </p>
 <h4>Here is the preview</h4>
-<a href="http://goo.gl/FHYM8o">Click Here</a>
+<a href="http://goo.gl/FHYM8o" target="_blank">Demo Here</a>
